@@ -1,0 +1,209 @@
+{
+  "name": "SAP E2E Tests",
+  "description": "SAP End-to-End Test for UiPath Labs",
+  "main": "",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.20.1]",
+    "UiPath.System.Activities": "[22.10.5]",
+    "UiPath.Testing.Activities": "[23.4.0]",
+    "UiPath.UIAutomation.Activities": "[23.4.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "DemoRepository",
+      "namespace": "SAP_E2E_Tests",
+      "uniqueReference": "lRImTMaltPADN473dk9Lb0uCYNl6Ows8DFG+1IuxUU8="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.10.7.0",
+  "projectVersion": "1.1.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "templateType": "ExecutionTemplate",
+        "fileName": ".templates\\SAP Change Impact Mining.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "bf815c21-f343-463b-9e1d-b42790276597",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Sales Order\\Create Change Release Sales Order.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "19ce6ffb-ee00-443c-95c1-34b9153c35b7",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Sales Order\\Create and Verify Sales Order.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7233ea0f-3f14-413e-8cef-c6b4eaacef4b",
+        "dataVariationFilePath": ".variations\\SAPTestSalesOrderOrgs.json",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Sales Order\\Create Sales Order - Different Org Data.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ef25704b-0247-4163-95ca-7765391ed28e",
+        "dataVariationFilePath": ".variations\\SAPTestSalesOrderNr.json",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Sales Order\\Display Sales Order.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ee34c16d-8d82-4972-bfa7-df6610a2b877",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Sales Order\\Change Sales Order.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a97d0e7f-0258-40c2-86b0-6603dbb2dacf",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Purchase Order\\Create Purchase Order.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b3a45282-3d2d-44d9-a07f-efbb4c5cf7e1",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Purchase Order\\Change Purchase Order.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "71c0db82-db02-4ced-8979-5485ecb27ab1",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Purchase Order\\Display Purchase Order.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "dc354d9e-3048-45ae-b439-d67719932c55",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Purchase Order\\Create Purchase Order Requisition.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ec01438e-fbd7-45da-9632-a51dcbb55a26",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Financial Accounting\\Enter Incoming Invoice.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8bd66a52-14f9-418c-8fab-db2910278fd7",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Financial Accounting\\Enter Outgoing Invoice.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1e58e2d2-2e6e-40fe-b438-dd7bdd2b1f58",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Financial Accounting\\Post Document.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "38c47fb0-ddb4-46ce-bd9d-b6c13fd553e0",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Financial Accounting\\Display Financial Statement Version.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0ed05bc8-9666-47a2-8c7a-ccdc06a2272f",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Financial Accounting\\G_L Account Line Items.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "eed21459-da45-4326-9ad8-2c03c07f0ced",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Basis Components\\ABAP Function Modules.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c42ac0fa-eae8-4f94-971b-b87c6abcdfc9",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Basis Components\\Object Navigator.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "771bd261-234b-4edf-8153-6734ac0f2504",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Basis Components\\User Maintenance.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5ce68ffd-099c-4932-b0a5-8014d86d0066",
+        "executionTemplatePath": ".templates\\SAP Change Impact Mining.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Test Cases Basis Components\\Maintain Technical Settings.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

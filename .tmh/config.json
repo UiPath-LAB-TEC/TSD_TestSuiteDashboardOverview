@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/uipathlabs/DemoRepository/testmanager_",
+  "defaultProject": {
+    "id": "af7813a9-6f1c-0000-c5ad-0b453d6037a7",
+    "name": "SAP",
+    "key": "SAP"
+  }
+}
